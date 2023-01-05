@@ -1,24 +1,25 @@
- body {
-        rgb(255,255,255);
+        @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+        background-color:#D6D8DC;
       }
-      #topheader {
-        background-color: rgb(11,32,73);
-        margin: 0px 0px 10px 0px;
+      .topheader {
+        float:top;
+        font-family: 'Lato', sans-serif;
+        background-color:rgb(11,32,73);
+        margin: -10px -10px 10px -10px;
         padding: 6px;
+        padding-left: 20px;
         border-bottom: 2px solid rgb(161, 161, 161);
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(255,255,255);
-      }
-      #website_header_thingy{
-        color:black
+        font-family: 'Lato', sans-serif;
+        color: white;
       }
       .body{
-        background-color: rgb(255, 255, 255);
-        margin: 1% 20% 2.5% 1%;
-        border: 2px dashed rgb(161, 161, 161);
+        background-color: rgb(54, 78, 125);
+        border: 2px dashed white;
         padding: 10px;
-          
+        color:white;      
       }
-      h1 a,a:visited,a:hover,a:active,a:link {
-        color:white
+      h1 .topheader a,a:visited,a:hover,a:active,a:link {
+        color:white;
       }
+    
